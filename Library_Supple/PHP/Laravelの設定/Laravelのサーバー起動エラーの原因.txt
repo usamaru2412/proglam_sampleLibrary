@@ -1,0 +1,17 @@
+https://qiita.com/mako0104/items/7c88c1574be21234bb99
+
+
+
+php/php.ini の設定を編集
+// 行頭の;を削除すればコメントアウトが外せます
+extension=mbstring
+extension=openssl
+extension=fileinfo
+
+
+
+そのあとに
+composer update  で大量に更新する
+
+
+php artisan serve

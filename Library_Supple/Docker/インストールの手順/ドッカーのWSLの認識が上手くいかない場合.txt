@@ -1,0 +1,19 @@
+enable integration with my default wsl distro:
+
+ ubunntuが表示されない場合
+
+
+--wslのUbuntuの登録を外して、Ubuntuを入れ直す
+wsl --unregister ubuntu  --登録から1回外す
+
+
+ストアなどからUbuntuを再インストール
+
+wsl --shutdown
+
+
+Docker Desktop を起動し、Ubuntuが認識されているかSetting(設定画面を)確認する
+
+
+Ubuntuのコンソール画面を開く
+docker ps  --これで表示されたらDockerの設定完了

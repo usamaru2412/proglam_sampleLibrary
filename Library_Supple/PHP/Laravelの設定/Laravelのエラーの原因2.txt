@@ -1,0 +1,8 @@
+Laravelのエラーの原因
+
+.env ファイルの　APP_KEY= の未設定
+Labelのサーバーを一回止めて
+
+「php artisan key:generate」のコマンド
+
+それにより .env のファイルにAPP_KEY= に追記されていたらLaravelサーバーを再度起動
